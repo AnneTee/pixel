@@ -34,6 +34,11 @@ const tests = [
 	{
 		label: 'Non-existent user page (#minerva #mobile)',
 		path: '/wiki/User:Echo1'
+	},
+	{
+		label: 'Codex (#minerva #mobile)',
+		path: '/wiki/Special:VueTest/codex',
+		selectors: '.cdx-sandbox__content'
 	}
 ];
 

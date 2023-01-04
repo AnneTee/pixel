@@ -191,6 +191,12 @@ const tests = [
 		label: 'Tree (#vector)',
 		path: '/wiki/Tree?useskin=vector',
 		delay: 1500
+	},
+	{
+		label: 'Codex (#vector-2022)',
+		path: '/wiki/Special:VueTest/codex',
+		selectors: '.cdx-sandbox__content',
+		delay: 1500
 	}
 ];
 
